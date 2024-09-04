@@ -18,7 +18,7 @@ def Modulus(value11,value12):
     return ans
 def power(value13,value14):
     ans = value13**value14
-    return ans
+    return ansel
 
 def main():
     print('Choose operator(+)(-)(*)(/)(//)(%)(**)')
@@ -28,13 +28,12 @@ def main():
     print('Enter second number:')
     value_2 = int(input())
     if(selct==1):
-        Output_1 = add(value_1,value_2)
+        Output_1 = add(value_1,value_2) 
         print('Addition:',Output_1)
     elif(selct==2):
         Output_2 = sub(value_1,value_2)
         print('subtraction:',Output_2)
     elif(selct==3):
-
         Output_2 = mul(value_1,value_2)
         print('multiplication:',Output_2)
     elif(selct==4):
